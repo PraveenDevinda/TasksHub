@@ -127,7 +127,7 @@ export default function ProfileScreen() {
       <Text style={styles.label}>Student Name</Text>
       <TextInput
         style={styles.input}
-        placeholder="Enter your name"
+        placeholder="John Doe"
         value={studentName}
         onChangeText={setStudentName}
       />
@@ -136,7 +136,7 @@ export default function ProfileScreen() {
       <Text style={styles.label}>Student ID</Text>
       <TextInput
         style={styles.input}
-        placeholder="Enter your student ID"
+        placeholder="CS/2020/001"
         value={studentID}
         onChangeText={setStudentId}
       />
